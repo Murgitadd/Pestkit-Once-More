@@ -1,0 +1,22 @@
+﻿@model string
+
+<!-- Begin Main Content Area -->
+<div class="container h-100">
+    <div class="row h-100">
+        <div class="col-lg-12 align-self-center m-5">
+            <div class="justify-content-center">
+                <div class="m-1">
+                    <img class="w-50" src="~/img/Error404.gif"
+                         alt="Error Image" />
+                </div>
+                <h2 class="m-2"><span>Oops,</span> @Model</h2>
+                <div class="button-wrap m-1">
+                    <a class="btn btn-warning fw-bold fs-3" asp-action="Index" asp-controller="Home">
+                        Back to home
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Main Content Area End Here -->
